@@ -5,6 +5,10 @@ html {
   body {
     font-family: 'Ubuntu', monospace;
     background-color: #222222;
+    padding-bottom: 300px;
+    padding-top: 50px;
+    margin: 8px;
+    margin-top: 14px;
   }
 
   div {
