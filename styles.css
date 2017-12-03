@@ -1,14 +1,13 @@
-html {
-  background-image: url(texbg.png);
-}
+  html {
+    background-image: url(texbg.png);
+  }
 
   body {
     font-family: 'Ubuntu', monospace;
     background-color: #222222;
     padding-bottom: 300px;
     padding-top: 50px;
-    margin: 8px;
-    margin-top: 14px;
+    padding-left: 50px;
   }
 
   div {
@@ -18,45 +17,42 @@ html {
     flex-flow: column;
   }
 
-.contG {
+  .contG {
 
-}
-
+  }
 
   #time {
-
     width: 140px;
-
     margin: 10px;
     padding: 5px;
     border-style: solid;
     border-color: #fbffbe;
   }
 
-  #regDate{
+  #regDate {
     font-size: 200%;
   }
+
   #J1970 {
     font-size: 10px;
     float: right;
     position: relative;
   }
 
-
   .search {
     width: fit-content;
     text-align: -webkit-center;
-    margin: 100px;
+    margin: 90px;
+    margin-left: 400px;
     padding: 9px 25px;
   }
 
   .icon {
-      width: 30px;
-      height: 30px;
-      float: left;
-      position: fixed;
-      padding: 5px;
-
+    width: 30px;
+    height: 30px;
+    float: left;
+    position: fixed;
+    padding: 5px;
   }
 
   #input {
