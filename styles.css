@@ -1,0 +1,69 @@
+html {
+  background-image: url(texbg.png);
+}
+
+  body {
+    font-family: 'Ubuntu', monospace;
+    background-color: #222222;
+  }
+
+  div {
+    color: #fbffbe;
+    background-color: #222222;
+    border-radius: 2px;
+    flex-flow: column;
+  }
+
+.contG {
+
+}
+
+
+  #time {
+
+    width: 140px;
+
+    margin: 10px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #fbffbe;
+  }
+
+  #regDate{
+    font-size: 200%;
+  }
+  #J1970 {
+    font-size: 10px;
+    float: right;
+    position: relative;
+  }
+
+
+  .search {
+    width: fit-content;
+    text-align: -webkit-center;
+    margin: 100px;
+    padding: 9px 25px;
+  }
+
+  .icon {
+      width: 30px;
+      height: 30px;
+      float: left;
+      position: fixed;
+      padding: 5px;
+
+  }
+
+  #input {
+    color: #fbffbe;
+    width: 80%;
+    text-align: -webkit-center;
+    background-color: #333333;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 3px;
+    font-size: 20px;
+    outline: none;
+  }
