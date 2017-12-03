@@ -1,23 +1,26 @@
-  html {
+    html {
     background-image: url(texbg.png);
   }
 
   body {
     font-family: 'Ubuntu', monospace;
     background-color: #222222;
-    padding-bottom: 300px;
-    padding-top: 50px;
-    padding-left: 50px;
+    padding: .4%;
+    margin: auto;
+    width: 75%;
+    margin-top: 14%;
   }
 
   div {
     color: #fbffbe;
     background-color: #222222;
     border-radius: 2px;
-    flex-flow: column;
+
   }
 
   .contG {
+    background-color: #222222;
+    padding: .4%;
 
   }
 
