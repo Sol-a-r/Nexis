@@ -38,20 +38,21 @@
       float: right;
     }
 
-#quote {
+    #quote {
+      margin-top: 13%;
+    }
 
-  margin-top: 13%;
-}
+    svg {
+      height: 35px;
+      width: 35px;
+      position: absolute;
+    }
 
 
     .search {
       width: 40%;
-      padding-right: 40px;
       text-align: -webkit-center;
-      background-image: url(search.ico);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: right;
+     margin-left: 5.5%;
     }
 
     #input {
@@ -64,4 +65,20 @@
       border-radius: 3px;
       font-size: 20px;
       outline: none;
+    }
+
+    .hov {
+      background-color: #333333;
+    
+      border-style: solid;
+        background-color: #111111;
+        margin-left: 35px;
+        padding: 20px;
+        display: none;
+        margin-top: 10px;
+        position: fixed;
+    }
+
+      svg:hover + div {
+        display: block;
     }
