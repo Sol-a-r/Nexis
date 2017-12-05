@@ -91,14 +91,23 @@
     z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content .dropdown-cont-button {
+  background-color: rgba(0, 0, 0, 0);
+    border-style: none;
     color: #fbffbe;
-    padding: 12px 16px;
+    width: 100%;
+    text-align: -webkit-center;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #333333;}
+.dropdown-content .dropdown-cont-button:hover {
+  border-style: dotted;
+  border-width: thin;
+  border-color: #fbffbe;
+  background-color: #333333;
+
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
