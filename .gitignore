@@ -1,0 +1,10 @@
+
+
+
+# Temp files
+*~
+*#
+
+
+# File system
+.DS_Store
