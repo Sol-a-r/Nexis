@@ -12,10 +12,8 @@
 
     .contG {
       margin: auto;
-
       padding: 50px;
     }
-
 
     #time {
       width: 140px;
@@ -41,17 +39,21 @@
       float: right;
     }
 
-    svg {
-      height: 36px;
-      width: 36px;
-      position: absolute;
+    #yt, #google {
+      width: 15%;
       float: left;
+      height: auto;
+    }
+
+    #find {
+      z-index: 1;
     }
 
     .search {
       width: 40%;
       margin-left: 4%;
       margin: auto;
+      padding: 50px;
     }
 
     #input {
@@ -68,9 +70,12 @@
 
     .dropbtn {
       background-color: rgba(0, 0, 0, 0);
+      background-image: url(find.svg);
+      background-repeat: no-repeat;
       color: #fbffbe;
       font-size: 16px;
       padding: 18px;
+
       border: none;
       cursor: pointer;
     }
@@ -106,11 +111,13 @@
       background-color: #333333;
     }
 
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
+    .dropdown:hover .dropdown-content {}
 
     .dropdown:hover .dropbtn {
       background-color: rgba(0, 0, 0, 0);
       border-radius: 4px;
+    }
+
+    .show {
+      display: block;
     }
