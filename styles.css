@@ -75,7 +75,7 @@
       color: #fbffbe;
       font-size: 16px;
       padding: 18px;
-
+      outline: none;
       border: none;
       cursor: pointer;
     }
