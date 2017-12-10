@@ -38,9 +38,15 @@
       float: right;
     }
 
-    #yt, #google {
+    #yt, #google, #duckduckgo  {
       width: 15%;
       float: left;
+      height: auto;
+    }
+
+    #duckduckgo  {
+      width: 20%;
+      margin-left: -4px;r
       height: auto;
     }
 
