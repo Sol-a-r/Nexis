@@ -38,16 +38,16 @@
       float: right;
     }
 
-    #yt, #google, #duckduckgo  {
+    #yt, #google, #duckduckgo {
       width: 15%;
       float: left;
       height: auto;
     }
 
-    #duckduckgo  {
+    #duckduckgo {
       width: 20%;
-      margin-left: -4px;r
-      height: auto;
+      margin-left: -4px;
+      r height: auto;
     }
 
     #find {
