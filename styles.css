@@ -4,7 +4,7 @@
       background-image: url(texbg.png);
     }
 
-    div {
+    div, a {
       color: #fbffbe;
       background-color: rgba(0, 0, 0, 0);
       border-radius: 2px;
@@ -15,11 +15,14 @@
       padding: 70px;
     }
 
-    #time {
+    #time, .link, a {
       overflow: hidden;
       border-left: solid;
       border-bottom: solid;
       border-radius: 0px;
+    }
+
+    #time {
       padding-left: .6%;
       width: 46.3%;
       height: 20%;
@@ -50,14 +53,12 @@
     }
 
     #yt, #google, #duckduckgo {
-      width: 15px;
+      width: 20%;
       float: left;
       height: auto;
     }
 
     #duckduckgo {
-      width: 20%;
-      margin-left: -4px;
       height: auto;
     }
 
@@ -69,7 +70,7 @@
       width: 40%;
       margin-left: 4%;
       margin: auto;
-      margin-top: 15%;
+      margin-top: -33%;
       padding: 50px;
     }
 
@@ -137,4 +138,27 @@
 
     .show {
       display: block;
+    }
+
+    ul {
+      padding-left: 1.15%;
+    }
+
+    .link {
+      border-width: medium;
+      width: 20%;
+      padding-left: .8%;
+    }
+
+    .link-cont {
+      border-left: solid;
+    }
+
+    a {
+      padding: .7%;
+      display: block;
+      width: max-content;
+      font-family: 'Exo 2', sans-serif;
+      text-decoration-line: none;
+      text-decoration-style: solid;
     }
