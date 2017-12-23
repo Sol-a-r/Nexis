@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Exo+2|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <title>Home</title>
 
@@ -94,7 +94,16 @@
         <!--<img src="">-->Chans/fourms</div>
       <ul>
         <a href="https://4chan.org">4chan</a>
-        <a href="https://8ch.net">8chan</a>
+        <ul style="margin-bottom:10px;">
+          <a class="boards" href="https://4chan.org/qa">/qa/</a>
+          <a class="boards" href="https://4chan.org/wg">/wg/</a>
+          <a class="boards" href="https://4chan.org/wsg">/wsg/</a>
+          <a class="boards" href="https://4chan.org/aco">/aco/</a>
+          <a class="boards" href="https://4chan.org/h">/h/</a>
+          <a class="boards" href="https://4chan.org/b">/b/</a>
+        </ul>
+
+
       </ul>
     </ul>
 
@@ -159,7 +168,7 @@
     </script>
     <script>
       /* When the user clicks on the button,
-                                                toggle between hiding and showing the dropdown content */
+                                                                  toggle between hiding and showing the dropdown content */
       function toggleClick() {
         document.getElementById("dropclick").classList.toggle("show");
       }
