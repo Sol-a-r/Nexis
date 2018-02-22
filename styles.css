@@ -161,7 +161,13 @@
       text-decoration-style: solid;
     }
 
-   .boards{
-     padding: 5px;
-     font-size: 60%;
-   }
+    .b{
+      padding: 5px;
+      font-size: 60%;
+    }
+
+
+    .b1{
+      padding: 5px;
+      font-size: 80%;
+    }
