@@ -67,11 +67,10 @@
     }
 
     .search {
+      position: fixed;
       width: 40%;
-      margin-left: 4%;
       margin: auto;
-      margin-top: -650px;
-      padding: 50px;
+      padding: 21%;
     }
 
     #input {
@@ -146,12 +145,12 @@
 
     .link {
       border-width: medium;
-      width: 20%;
       padding-left: .8%;
     }
 
     .link-cont {
       border-left: solid;
+      position: absolute;
     }
 
     a {
@@ -163,5 +162,6 @@
     }
 
    .boards{
-     font-size: 70%;
+     padding: 5px;
+     font-size: 60%;
    }
